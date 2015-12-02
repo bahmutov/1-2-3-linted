@@ -4,7 +4,8 @@
   "description": "Example code for a companion blog post",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint",
+    "lint": "eslint index.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/bahmutov/1-2-3-linted/issues"
   },
-  "homepage": "https://github.com/bahmutov/1-2-3-linted#readme"
+  "homepage": "https://github.com/bahmutov/1-2-3-linted#readme",
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^1.0.2",
+    "eslint-plugin-react": "^3.11.2"
+  }
 }
