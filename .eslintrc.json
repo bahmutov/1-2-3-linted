@@ -1,6 +1,10 @@
 {
-    "extends": "airbnb",
-    "plugins": [
-        "react"
-    ]
+  "extends": "airbnb",
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "space-after-keywords": 0,
+    "no-alert": 2
+  }
 }
