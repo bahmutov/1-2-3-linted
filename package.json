@@ -1,0 +1,28 @@
+{
+  "name": "1-2-3-linted",
+  "version": "1.0.0",
+  "description": "Example code for a companion blog post",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/1-2-3-linted.git"
+  },
+  "keywords": [
+    "lint",
+    "example",
+    "tutorial",
+    "blog",
+    "jshint",
+    "eslint",
+    "jscs"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/1-2-3-linted/issues"
+  },
+  "homepage": "https://github.com/bahmutov/1-2-3-linted#readme"
+}
