@@ -7,7 +7,8 @@
     "test": "npm run lint",
     "lint": "eslint index.js",
     "fix": "eslint --fix index.js",
-    "commit": "commit-wizard"
+    "commit": "commit-wizard",
+    "standard": "standard index.js"
   },
   "repository": {
     "type": "git",
@@ -32,12 +33,15 @@
     "eslint": "^1.10.3",
     "eslint-config-airbnb": "^1.0.2",
     "eslint-plugin-react": "^3.11.2",
-    "pre-git": "^1.4.0"
+    "pre-git": "^1.4.0",
+    "standard": "5.4.1"
   },
   "config": {
     "pre-git": {
       "commit-msg": "validate-commit-msg",
-      "pre-commit": ["npm run lint"],
+      "pre-commit": [
+        "npm run lint"
+      ],
       "pre-push": [],
       "post-commit": [],
       "post-merge": []
